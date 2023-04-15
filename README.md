@@ -8,7 +8,7 @@ Use o seguinte comando para gerar o código Python:
 
     $ python -m grpc_tools.protoc -I./ --python_out=. --grpc_python_out=. ./service.proto
     
-Para rodar o servidor:
+Para rodar o servidor rode o comando:
 
     $ python server.py
 
